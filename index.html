@@ -573,7 +573,7 @@
                 if (feedData.last_updated) {
                     const date = new Date(feedData.last_updated);
                     document.getElementById('last-update').textContent =
-                        '업데이트: ' + date.toLocaleString('ko-KR');
+                        '업데이트: ' + date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
                 }
             }
 
