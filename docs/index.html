@@ -537,6 +537,14 @@
         function parseDate(dateStr) {
             if (!dateStr) return new Date(0);
 
+            // 국가데이터처 형식: 202601271501 (yyyyMMddHHmm)
+            if (/^\d{12}$/.test(dateStr)) {
+                const year = dateStr.substring(0, 4);
+                const month = dateStr.substring(4, 6);
+                const day = dateStr.substring(6, 8);
+                return new Date(year, month - 1, day);
+            }
+
             // 다양한 날짜 형식 처리
             // 2024.01.28, 2024-01-28, 2024/01/28
             const cleaned = dateStr.replace(/[.\-/]/g, '-').trim();

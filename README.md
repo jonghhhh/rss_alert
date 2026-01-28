@@ -6,7 +6,7 @@
 
 ## 🎯 프로젝트 취지
 
-- 한국은행, 통계청 등 정부기관 보도자료를 실시간으로 모니터링
+- 한국은행, 국가데이터처 등 정부기관 보도자료를 실시간으로 모니터링
 - 여러 사이트를 일일이 방문하지 않고 한 곳에서 확인
 - 새 글이 올라오면 이메일로 알림 받기
 - 무료 인프라(GitHub)만 사용하여 유지비용 0원
@@ -37,8 +37,8 @@
 | 피드 | 타입 | 아이콘 | 상태 |
 |------|------|--------|------|
 | 한국은행 보도자료 | playwright | 🏦 | ✅ 활성 |
-| 통계청 보도자료 | rss | 📊 | ✅ 활성 |
-| 통계청 언론보도 설명 | rss | 📈 | ✅ 활성 |
+| 국가데이터처 보도자료 | rss | 📊 | ✅ 활성 |
+| 국가데이터처 언론보도 설명 | rss | 📈 | ✅ 활성 |
 | Hacker News | rss | 🔶 | ✅ 활성 |
 | 금융위원회 | rss | 🏢 | ⏸️ 비활성 |
 | TechCrunch | rss | 💻 | ⏸️ 비활성 |
@@ -51,7 +51,7 @@
 
 | 타입 | 설명 | 사용 사례 |
 |------|------|----------|
-| `rss` | RSS/Atom 피드 파싱 (feedparser) | 통계청, Hacker News 등 RSS 제공 사이트 |
+| `rss` | RSS/Atom 피드 파싱 (feedparser) | 국가데이터처, Hacker News 등 RSS 제공 사이트 |
 | `playwright` | 헤드리스 브라우저 스크래핑 | 한국은행 등 JavaScript 렌더링 사이트 |
 | `scrape` | 단순 HTML 스크래핑 (BeautifulSoup) | 정적 HTML 사이트 |
 
@@ -115,7 +115,7 @@ cd rss_alert
       "enabled": true
     },
     {
-      "name": "통계청 보도자료",
+      "name": "국가데이터처 보도자료",
       "type": "rss",
       "url": "https://kostat.go.kr/board.es?mid=a10301010000&bid=210&act=rss",
       "icon": "📊",
@@ -286,8 +286,8 @@ def fetch_playwright_feed(feed_config):
 
 | 사이트 | RSS URL |
 |--------|---------|
-| 통계청 보도자료 | `https://kostat.go.kr/board.es?mid=a10301010000&bid=210&act=rss` |
-| 통계청 언론보도 설명 | `https://kostat.go.kr/board.es?mid=a10304010000&bid=210&act=rss` |
+| 국가데이터처 보도자료 | `https://kostat.go.kr/board.es?mid=a10301010000&bid=210&act=rss` |
+| 국가데이터처 언론보도 설명 | `https://kostat.go.kr/board.es?mid=a10304010000&bid=210&act=rss` |
 | 금융위원회 | `https://www.fsc.go.kr/rss/P0000016` |
 
 ### 테크/IT
@@ -370,7 +370,7 @@ schedule:
 ### v2.0 (2026-01-28)
 - Playwright 기반 스크래퍼 추가 (한국은행 지원)
 - feedparser로 RSS 파싱 개선
-- 통계청 RSS URL 업데이트 (kostat.go.kr)
+- 국가데이터처 RSS URL 업데이트 (kostat.go.kr)
 - 모듈화된 스크래퍼 구조 (`scraper_bok.py`)
 
 ### v1.0

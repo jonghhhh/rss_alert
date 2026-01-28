@@ -5,12 +5,11 @@ JavaScript 렌더링이 필요한 페이지용
 
 from playwright.sync_api import sync_playwright
 from datetime import datetime
-import json
 import re
 
 
 def fetch_bok_news(config: dict) -> list:
-    """한국은행 보도자료 스크래핑"""
+    """한국은행 보도자료 스크래핑 (게시일 포함)"""
     url = config.get('url', 'https://www.bok.or.kr/portal/singl/newsData/list.do?menuNo=201263&pageUnit=20')
 
     articles = []
@@ -22,10 +21,22 @@ def fetch_bok_news(config: dict) -> list:
             page.goto(url, timeout=30000)
             page.wait_for_timeout(3000)  # JS 렌더링 대기
 
+            # 날짜 목록 먼저 추출 (등록일 텍스트에서)
+            date_elements = page.query_selector_all('.date, span.date, td.date, [class*="date"]')
+            dates = []
+            for elem in date_elements:
+                text = elem.inner_text().strip()
+                # yyyy.mm.dd 형식 찾기
+                match = re.search(r'(\d{4})[.\-/](\d{2})[.\-/](\d{2})', text)
+                if match:
+                    dates.append(f"{match.group(1)}-{match.group(2)}-{match.group(3)}")
+
             # 뉴스 링크들 찾기
             links = page.query_selector_all('a[href*="view.do"], a[href*="nttId"]')
 
             seen_titles = set()
+            date_idx = 0
+
             for link in links:
                 try:
                     title = link.inner_text().strip()
@@ -38,7 +49,7 @@ def fetch_bok_news(config: dict) -> list:
                     if title in seen_titles:
                         continue
                     # 메뉴/네비게이션 링크 제외
-                    if any(x in title.lower() for x in ['rss', '바로가기', '새창', '홈페이지']):
+                    if any(x in title.lower() for x in ['rss', '바로가기', '새창', '홈페이지', '화폐교환']):
                         continue
 
                     seen_titles.add(title)
@@ -47,10 +58,14 @@ def fetch_bok_news(config: dict) -> list:
                     if href and not href.startswith('http'):
                         href = f"https://www.bok.or.kr{href}"
 
+                    # 게시일 매칭 (순서대로)
+                    pub_date = dates[date_idx] if date_idx < len(dates) else ""
+                    date_idx += 1
+
                     articles.append({
                         "title": title,
                         "link": href or "",
-                        "date": "",  # 상세 페이지에서 가져와야 함
+                        "date": pub_date,
                         "summary": "",
                         "source": config.get('name', '한국은행 보도자료'),
                         "icon": config.get('icon', '🏦'),
@@ -82,4 +97,4 @@ if __name__ == "__main__":
     }
     articles = fetch_bok_news(config)
     for a in articles[:5]:
-        print(f"- {a['title']}")
+        print(f"- [{a['date']}] {a['title']}")
