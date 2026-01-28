@@ -10,11 +10,18 @@ from bs4 import BeautifulSoup
 import feedparser
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import re
+
+# 한국 시간대 (UTC+9)
+KST = timezone(timedelta(hours=9))
+
+def now_kst():
+    """한국 시간 반환"""
+    return datetime.now(KST)
 
 # 설정
 CONFIG_FILE = "config.json"
@@ -61,7 +68,7 @@ def fetch_rss_feed(feed_config):
                 "summary": summary,
                 "source": feed_config['name'],
                 "icon": feed_config.get('icon', '📰'),
-                "fetched_at": datetime.now().isoformat()
+                "fetched_at": now_kst().isoformat()
             })
 
         print(f"  ✅ RSS [{feed_config['name']}]: {len(articles)}건")
@@ -115,7 +122,7 @@ def fetch_scrape_feed(feed_config):
                             "summary": "",
                             "source": feed_config['name'],
                             "icon": feed_config.get('icon', '🏦'),
-                            "fetched_at": datetime.now().isoformat()
+                            "fetched_at": now_kst().isoformat()
                         })
                 except:
                     continue
@@ -139,7 +146,7 @@ def fetch_scrape_feed(feed_config):
                                 "summary": "",
                                 "source": feed_config['name'],
                                 "icon": feed_config.get('icon', '🏦'),
-                                "fetched_at": datetime.now().isoformat()
+                                "fetched_at": now_kst().isoformat()
                             })
         
         # 일반 사이트 파싱
@@ -169,7 +176,7 @@ def fetch_scrape_feed(feed_config):
                                 "summary": "",
                                 "source": feed_config['name'],
                                 "icon": feed_config.get('icon', '📄'),
-                                "fetched_at": datetime.now().isoformat()
+                                "fetched_at": now_kst().isoformat()
                             })
                     break
         
@@ -332,7 +339,7 @@ def send_email_notification(new_articles_by_feed):
 
 def main():
     print("=" * 60)
-    print(f"📡 통합 뉴스 피드 수집 시작: {datetime.now()}")
+    print(f"📡 통합 뉴스 피드 수집 시작: {now_kst()}")
     print("=" * 60)
     
     # 1. 설정 로드
@@ -370,7 +377,7 @@ def main():
     # 4. 데이터 저장
     updated_data = {
         "feeds": all_articles,
-        "last_updated": datetime.now().isoformat(),
+        "last_updated": now_kst().isoformat(),
         "feed_count": len(enabled_feeds),
         "total_articles": sum(len(a) for a in all_articles.values())
     }

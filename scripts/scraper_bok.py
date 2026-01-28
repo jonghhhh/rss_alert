@@ -4,8 +4,15 @@ JavaScript 렌더링이 필요한 페이지용
 """
 
 from playwright.sync_api import sync_playwright
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import re
+
+# 한국 시간대 (UTC+9)
+KST = timezone(timedelta(hours=9))
+
+def now_kst():
+    """한국 시간 반환"""
+    return datetime.now(KST)
 
 
 def fetch_bok_news(config: dict) -> list:
@@ -69,7 +76,7 @@ def fetch_bok_news(config: dict) -> list:
                         "summary": "",
                         "source": config.get('name', '한국은행 보도자료'),
                         "icon": config.get('icon', '🏦'),
-                        "fetched_at": datetime.now().isoformat()
+                        "fetched_at": now_kst().isoformat()
                     })
 
                     if len(articles) >= 20:
