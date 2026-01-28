@@ -181,12 +181,30 @@ def fetch_scrape_feed(feed_config):
         return []
 
 
+def fetch_playwright_feed(feed_config):
+    """Playwright로 JavaScript 렌더링 페이지 스크래핑"""
+    scraper_name = feed_config.get('scraper', '')
+
+    if scraper_name == 'bok':
+        from scraper_bok import fetch_bok_news
+        return fetch_bok_news(feed_config)
+    # 추후 다른 스크래퍼 추가:
+    # elif scraper_name == 'fsc':
+    #     from scraper_fsc import fetch_fsc_news
+    #     return fetch_fsc_news(feed_config)
+    else:
+        print(f"  ⚠️ 알 수 없는 스크래퍼: {scraper_name}")
+        return []
+
+
 def fetch_feed(feed_config):
     """피드 타입에 따라 적절한 방법으로 가져오기"""
     if feed_config['type'] == 'rss':
         return fetch_rss_feed(feed_config)
     elif feed_config['type'] == 'scrape':
         return fetch_scrape_feed(feed_config)
+    elif feed_config['type'] == 'playwright':
+        return fetch_playwright_feed(feed_config)
     else:
         print(f"  ⚠️ 알 수 없는 타입: {feed_config['type']}")
         return []

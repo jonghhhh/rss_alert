@@ -2,10 +2,11 @@
   "feeds": [
     {
       "name": "한국은행 보도자료",
-      "type": "scrape",
+      "type": "playwright",
+      "scraper": "bok",
       "url": "https://www.bok.or.kr/portal/singl/newsData/list.do?menuNo=201263&pageUnit=20",
       "icon": "🏦",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "통계청 보도자료",

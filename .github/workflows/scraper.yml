@@ -31,8 +31,11 @@ jobs:
           python-version: '3.11'
       
       - name: 📦 Install dependencies
-        run: pip install requests beautifulsoup4 feedparser
-      
+        run: pip install requests beautifulsoup4 feedparser playwright
+
+      - name: 🎭 Install Playwright browsers
+        run: playwright install chromium --with-deps
+
       - name: 🔍 Run scraper
         env:
           SMTP_SERVER: smtp.gmail.com
