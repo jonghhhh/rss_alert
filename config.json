@@ -36,14 +36,7 @@
       "icon": "💻",
       "enabled": false
     },
-    {
-      "name": "Hacker News",
-      "type": "rss",
-      "url": "https://news.ycombinator.com/rss",
-      "icon": "🔶",
-      "enabled": true
-    },
-    {
+        {
       "name": "Medium - AI",
       "type": "rss",
       "url": "https://medium.com/feed/topic/artificial-intelligence",
