@@ -7,7 +7,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
+import feedparser
 import json
 import os
 from datetime import datetime
@@ -31,75 +31,42 @@ def load_config():
 
 
 def fetch_rss_feed(feed_config):
-    """RSS 피드 가져오기"""
+    """RSS 피드 가져오기 (feedparser 사용)"""
     try:
-        response = requests.get(feed_config['url'], headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        
-        # XML 파싱
-        root = ET.fromstring(response.content)
+        feed = feedparser.parse(feed_config['url'])
         articles = []
-        
-        # RSS 2.0 형식
-        for item in root.findall('.//item')[:20]:
-            title = item.find('title')
-            link = item.find('link')
-            pub_date = item.find('pubDate')
-            description = item.find('description')
-            
-            if title is not None and link is not None:
-                articles.append({
-                    "title": title.text.strip() if title.text else "",
-                    "link": link.text.strip() if link.text else "",
-                    "date": pub_date.text.strip() if pub_date is not None and pub_date.text else "",
-                    "summary": description.text[:200] if description is not None and description.text else "",
-                    "source": feed_config['name'],
-                    "icon": feed_config.get('icon', '📰'),
-                    "fetched_at": datetime.now().isoformat()
-                })
-        
-        # Atom 형식 (RSS가 비어있을 때)
-        if not articles:
-            ns = {'atom': 'http://www.w3.org/2005/Atom'}
-            for entry in root.findall('.//atom:entry', ns)[:20]:
-                title = entry.find('atom:title', ns)
-                link = entry.find('atom:link', ns)
-                published = entry.find('atom:published', ns)
-                
-                if title is not None:
-                    link_href = link.get('href') if link is not None else ""
-                    articles.append({
-                        "title": title.text.strip() if title.text else "",
-                        "link": link_href,
-                        "date": published.text[:10] if published is not None and published.text else "",
-                        "summary": "",
-                        "source": feed_config['name'],
-                        "icon": feed_config.get('icon', '📰'),
-                        "fetched_at": datetime.now().isoformat()
-                    })
-        
-        # YouTube Atom 형식
-        if not articles:
-            for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry')[:20]:
-                title = entry.find('{http://www.w3.org/2005/Atom}title')
-                link = entry.find('{http://www.w3.org/2005/Atom}link')
-                published = entry.find('{http://www.w3.org/2005/Atom}published')
-                
-                if title is not None:
-                    link_href = link.get('href') if link is not None else ""
-                    articles.append({
-                        "title": title.text.strip() if title.text else "",
-                        "link": link_href,
-                        "date": published.text[:10] if published is not None and published.text else "",
-                        "summary": "",
-                        "source": feed_config['name'],
-                        "icon": feed_config.get('icon', '📺'),
-                        "fetched_at": datetime.now().isoformat()
-                    })
-        
+
+        for entry in feed.entries[:20]:
+            # 날짜 처리
+            date_str = ""
+            if hasattr(entry, 'published'):
+                date_str = entry.published
+            elif hasattr(entry, 'updated'):
+                date_str = entry.updated
+
+            # 링크 처리
+            link = entry.get('link', '')
+
+            # 요약 처리
+            summary = ""
+            if hasattr(entry, 'summary'):
+                summary = re.sub(r'<[^>]+>', '', entry.summary)[:200]
+            elif hasattr(entry, 'description'):
+                summary = re.sub(r'<[^>]+>', '', entry.description)[:200]
+
+            articles.append({
+                "title": entry.get('title', '').strip(),
+                "link": link,
+                "date": date_str,
+                "summary": summary,
+                "source": feed_config['name'],
+                "icon": feed_config.get('icon', '📰'),
+                "fetched_at": datetime.now().isoformat()
+            })
+
         print(f"  ✅ RSS [{feed_config['name']}]: {len(articles)}건")
         return articles
-        
+
     except Exception as e:
         print(f"  ❌ RSS [{feed_config['name']}] 오류: {e}")
         return []

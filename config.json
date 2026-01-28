@@ -3,21 +3,21 @@
     {
       "name": "한국은행 보도자료",
       "type": "scrape",
-      "url": "https://www.bok.or.kr/portal/bbs/P0000559/list.do?menuNo=200690",
+      "url": "https://www.bok.or.kr/portal/singl/newsData/list.do?menuNo=201263&pageUnit=20",
       "icon": "🏦",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "통계청 보도자료",
       "type": "rss",
-      "url": "http://mods.go.kr/menu.es?mid=a10301010000&act=rss",
+      "url": "https://kostat.go.kr/board.es?mid=a10301010000&bid=210&act=rss",
       "icon": "📊",
       "enabled": true
     },
     {
       "name": "통계청 언론보도 설명",
       "type": "rss",
-      "url": "http://mods.go.kr/menu.es?mid=a10304010000&act=rss",
+      "url": "https://kostat.go.kr/board.es?mid=a10304010000&bid=210&act=rss",
       "icon": "📈",
       "enabled": true
     },
