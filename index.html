@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📡 실시간 뉴스 피드</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            color: #e2e8f0;
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+        header {
+            text-align: center;
+            padding: 40px 0 30px;
+            border-bottom: 1px solid #334155;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+        }
+
+        .live-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .live-dot {
+            width: 10px;
+            height: 10px;
+            background: #22c55e;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.3); }
+        }
+
+        .refresh-btn {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px 25px;
+            background: rgba(51, 65, 85, 0.5);
+            border-radius: 10px;
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            margin-top: 5px;
+        }
+
+        /* 뷰 전환 탭 */
+        .view-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 25px 0;
+        }
+
+        .view-tab {
+            padding: 10px 24px;
+            border: 1px solid #334155;
+            background: transparent;
+            color: #94a3b8;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .view-tab:hover {
+            border-color: #3b82f6;
+            color: #e2e8f0;
+        }
+
+        .view-tab.active {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            border-color: transparent;
+            color: white;
+        }
+
+        /* 필터 */
+        .filter-bar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid #334155;
+            background: transparent;
+            color: #94a3b8;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            border-color: #3b82f6;
+            color: #e2e8f0;
+        }
+
+        .filter-btn.active {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+            color: #38bdf8;
+        }
+
+        /* 통합 뷰 */
+        .unified-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .article {
+            display: block;
+            padding: 18px 20px;
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            border: 1px solid #334155;
+            border-left: 4px solid transparent;
+        }
+
+        .article:hover {
+            background: rgba(51, 65, 85, 0.7);
+            border-left-color: #3b82f6;
+            transform: translateX(4px);
+        }
+
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .article-source {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            background: rgba(56, 189, 248, 0.15);
+            border-radius: 15px;
+            font-size: 0.8rem;
+            color: #38bdf8;
+        }
+
+        .article-title {
+            font-size: 1.05rem;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            color: #f1f5f9;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+
+        /* 피드별 뷰 */
+        .feed-section {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid #334155;
+        }
+
+        .feed-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #334155;
+        }
+
+        .feed-icon { font-size: 1.8rem; }
+
+        .feed-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            flex: 1;
+        }
+
+        .feed-count {
+            background: rgba(56, 189, 248, 0.2);
+            color: #38bdf8;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        .article-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .article-simple {
+            display: block;
+            padding: 16px;
+            background: rgba(51, 65, 85, 0.4);
+            border-radius: 10px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            border-left: 3px solid transparent;
+        }
+
+        .article-simple:hover {
+            background: rgba(51, 65, 85, 0.7);
+            border-left-color: #3b82f6;
+            transform: translateX(4px);
+        }
+
+        /* 페이지네이션 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px;
+            padding: 20px 0;
+        }
+
+        .page-btn {
+            padding: 10px 18px;
+            border: 1px solid #334155;
+            background: rgba(30, 41, 59, 0.8);
+            color: #94a3b8;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            border-color: #3b82f6;
+            color: #e2e8f0;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .page-btn.active {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            border-color: transparent;
+            color: white;
+        }
+
+        .page-info {
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #64748b;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #334155;
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .empty {
+            text-align: center;
+            padding: 60px;
+            color: #64748b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        footer a { color: #3b82f6; }
+
+        .countdown {
+            font-size: 0.8rem;
+            color: #64748b;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6rem; }
+            .container { padding: 15px; }
+            .article { padding: 14px 16px; }
+            .stats { gap: 15px; }
+            .stat-item { padding: 12px 18px; }
+            .view-tabs { gap: 8px; }
+            .view-tab { padding: 8px 16px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📡 실시간 뉴스 피드</h1>
+            <div class="status-bar">
+                <div class="live-indicator">
+                    <span class="live-dot"></span>
+                    <span>자동 업데이트</span>
+                </div>
+                <span id="last-update">-</span>
+                <button class="refresh-btn" onclick="loadData()">🔄 새로고침</button>
+            </div>
+            <div class="countdown">자동 새로고침: <span id="countdown">60</span>초</div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="feed-count">0</div>
+                    <div class="stat-label">피드</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="article-count">0</div>
+                    <div class="stat-label">게시물</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 뷰 전환 탭 -->
+        <div class="view-tabs">
+            <button class="view-tab active" onclick="setView('unified')">📋 통합 보기</button>
+            <button class="view-tab" onclick="setView('byFeed')">📁 피드별 보기</button>
+        </div>
+
+        <!-- 필터 (통합 뷰에서만 표시) -->
+        <div class="filter-bar" id="filter-bar">
+            <button class="filter-btn active" onclick="setFilter('all')">전체</button>
+        </div>
+
+        <main id="content">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>데이터를 불러오는 중...</p>
+            </div>
+        </main>
+
+        <!-- 페이지네이션 -->
+        <div class="pagination" id="pagination" style="display: none;">
+            <button class="page-btn" onclick="changePage(-1)" id="prev-btn">← 이전</button>
+            <span class="page-info" id="page-info">1 / 1</span>
+            <button class="page-btn" onclick="changePage(1)" id="next-btn">다음 →</button>
+        </div>
+
+        <footer>
+            <p>30분마다 GitHub Actions로 자동 업데이트</p>
+            <p>Powered by <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+        </footer>
+    </div>
+
+    <script>
+        let countdown = 60;
+        let feedData = null;
+        let currentView = 'unified';
+        let currentFilter = 'all';
+        let currentPage = 1;
+        const ITEMS_PER_PAGE = 15;
+
+        async function loadData() {
+            const content = document.getElementById('content');
+
+            try {
+                const response = await fetch('data.json?t=' + Date.now());
+                if (!response.ok) throw new Error('데이터를 불러올 수 없습니다');
+
+                feedData = await response.json();
+                updateFilters();
+                render();
+            } catch (error) {
+                content.innerHTML = `
+                    <div class="empty">
+                        <p>⚠️ ${error.message}</p>
+                        <p style="margin-top: 10px;">config.json에서 피드를 활성화하고 Actions를 실행하세요.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function updateFilters() {
+            if (!feedData) return;
+
+            const filterBar = document.getElementById('filter-bar');
+            const feeds = feedData.feeds || {};
+            const feedNames = Object.keys(feeds);
+
+            let html = '<button class="filter-btn active" onclick="setFilter(\'all\')">전체</button>';
+
+            for (const feedName of feedNames) {
+                const articles = feeds[feedName] || [];
+                if (articles.length === 0) continue;
+                const icon = articles[0]?.icon || '📰';
+                html += `<button class="filter-btn" onclick="setFilter('${feedName}')">${icon} ${feedName}</button>`;
+            }
+
+            filterBar.innerHTML = html;
+        }
+
+        function setView(view) {
+            currentView = view;
+            currentPage = 1;
+
+            // 탭 상태 업데이트
+            document.querySelectorAll('.view-tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelector(`.view-tab[onclick="setView('${view}')"]`).classList.add('active');
+
+            // 필터 바 표시/숨김
+            document.getElementById('filter-bar').style.display = view === 'unified' ? 'flex' : 'none';
+
+            render();
+        }
+
+        function setFilter(filter) {
+            currentFilter = filter;
+            currentPage = 1;
+
+            // 필터 버튼 상태 업데이트
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            render();
+        }
+
+        function changePage(delta) {
+            const allArticles = getAllArticles();
+            const totalPages = Math.ceil(allArticles.length / ITEMS_PER_PAGE);
+
+            currentPage = Math.max(1, Math.min(totalPages, currentPage + delta));
+            render();
+        }
+
+        function getAllArticles() {
+            if (!feedData) return [];
+
+            const feeds = feedData.feeds || {};
+            let allArticles = [];
+
+            for (const [feedName, articles] of Object.entries(feeds)) {
+                if (currentFilter !== 'all' && feedName !== currentFilter) continue;
+
+                for (const article of articles) {
+                    allArticles.push({
+                        ...article,
+                        feedName: feedName
+                    });
+                }
+            }
+
+            // 날짜순 정렬 (최신순)
+            allArticles.sort((a, b) => {
+                const dateA = parseDate(a.date);
+                const dateB = parseDate(b.date);
+                return dateB - dateA;
+            });
+
+            return allArticles;
+        }
+
+        function parseDate(dateStr) {
+            if (!dateStr) return new Date(0);
+
+            // 다양한 날짜 형식 처리
+            // 2024.01.28, 2024-01-28, 2024/01/28
+            const cleaned = dateStr.replace(/[.\-/]/g, '-').trim();
+            const match = cleaned.match(/(\d{4})-(\d{2})-(\d{2})/);
+
+            if (match) {
+                return new Date(match[1], match[2] - 1, match[3]);
+            }
+
+            // RFC 날짜 형식 (RSS)
+            const rfcDate = new Date(dateStr);
+            if (!isNaN(rfcDate)) return rfcDate;
+
+            return new Date(0);
+        }
+
+        function render() {
+            const content = document.getElementById('content');
+
+            // 통계 업데이트
+            if (feedData) {
+                const feedNames = Object.keys(feedData.feeds || {});
+                document.getElementById('feed-count').textContent = feedData.feed_count || feedNames.length;
+                document.getElementById('article-count').textContent = feedData.total_articles || 0;
+
+                if (feedData.last_updated) {
+                    const date = new Date(feedData.last_updated);
+                    document.getElementById('last-update').textContent =
+                        '업데이트: ' + date.toLocaleString('ko-KR');
+                }
+            }
+
+            if (currentView === 'unified') {
+                renderUnifiedView(content);
+            } else {
+                renderFeedView(content);
+            }
+        }
+
+        function renderUnifiedView(content) {
+            const allArticles = getAllArticles();
+
+            if (allArticles.length === 0) {
+                content.innerHTML = `
+                    <div class="empty">
+                        <p>📭 표시할 게시물이 없습니다</p>
+                    </div>
+                `;
+                document.getElementById('pagination').style.display = 'none';
+                return;
+            }
+
+            const totalPages = Math.ceil(allArticles.length / ITEMS_PER_PAGE);
+            const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+            const pageArticles = allArticles.slice(startIdx, startIdx + ITEMS_PER_PAGE);
+
+            let html = '<div class="unified-list">';
+
+            for (const article of pageArticles) {
+                const dateDisplay = formatDate(article.date);
+
+                html += `
+                    <a href="${article.link}" target="_blank" class="article">
+                        <div class="article-header">
+                            <span class="article-source">${article.icon || '📰'} ${article.feedName}</span>
+                        </div>
+                        <div class="article-title">${article.title}</div>
+                        <div class="article-meta">
+                            ${dateDisplay ? `<span>📅 ${dateDisplay}</span>` : ''}
+                        </div>
+                    </a>
+                `;
+            }
+
+            html += '</div>';
+            content.innerHTML = html;
+
+            // 페이지네이션 업데이트
+            const pagination = document.getElementById('pagination');
+            pagination.style.display = totalPages > 1 ? 'flex' : 'none';
+            document.getElementById('page-info').textContent = `${currentPage} / ${totalPages}`;
+            document.getElementById('prev-btn').disabled = currentPage === 1;
+            document.getElementById('next-btn').disabled = currentPage === totalPages;
+        }
+
+        function renderFeedView(content) {
+            if (!feedData) {
+                content.innerHTML = '<div class="empty">데이터가 없습니다</div>';
+                return;
+            }
+
+            const feeds = feedData.feeds || {};
+            const feedNames = Object.keys(feeds);
+
+            if (feedNames.length === 0) {
+                content.innerHTML = `
+                    <div class="empty">
+                        <p>📭 활성화된 피드가 없습니다</p>
+                        <p style="margin-top: 10px;">config.json에서 피드를 활성화하세요</p>
+                    </div>
+                `;
+                document.getElementById('pagination').style.display = 'none';
+                return;
+            }
+
+            let html = '';
+
+            for (const feedName of feedNames) {
+                const articles = feeds[feedName] || [];
+                if (articles.length === 0) continue;
+
+                const icon = articles[0]?.icon || '📰';
+
+                // 피드 내 날짜순 정렬
+                const sortedArticles = [...articles].sort((a, b) => {
+                    return parseDate(b.date) - parseDate(a.date);
+                });
+
+                html += `
+                    <div class="feed-section">
+                        <div class="feed-header">
+                            <span class="feed-icon">${icon}</span>
+                            <span class="feed-title">${feedName}</span>
+                            <span class="feed-count">${articles.length}건</span>
+                        </div>
+                        <div class="article-list">
+                `;
+
+                for (const article of sortedArticles.slice(0, 15)) {
+                    const dateDisplay = formatDate(article.date);
+
+                    html += `
+                        <a href="${article.link}" target="_blank" class="article-simple">
+                            <div class="article-title">${article.title}</div>
+                            <div class="article-meta">
+                                ${dateDisplay ? `<span>📅 ${dateDisplay}</span>` : ''}
+                            </div>
+                        </a>
+                    `;
+                }
+
+                if (sortedArticles.length > 15) {
+                    html += `<p style="color: #64748b; font-size: 0.85rem; padding: 10px; text-align: center;">...외 ${sortedArticles.length - 15}건</p>`;
+                }
+
+                html += '</div></div>';
+            }
+
+            content.innerHTML = html || '<div class="empty">표시할 데이터가 없습니다</div>';
+            document.getElementById('pagination').style.display = 'none';
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+
+            const date = parseDate(dateStr);
+            if (date.getTime() === 0) return dateStr;
+
+            const now = new Date();
+            const diff = now - date;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+            if (days === 0) return '오늘';
+            if (days === 1) return '어제';
+            if (days < 7) return `${days}일 전`;
+
+            return date.toLocaleDateString('ko-KR', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+        }
+
+        // 자동 새로고침
+        setInterval(() => {
+            countdown--;
+            document.getElementById('countdown').textContent = countdown;
+            if (countdown <= 0) {
+                countdown = 60;
+                loadData();
+            }
+        }, 1000);
+
+        // 탭 활성화 시 새로고침
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') {
+                loadData();
+                countdown = 60;
+            }
+        });
+
+        // 초기 로드
+        loadData();
+    </script>
+</body>
+</html>
