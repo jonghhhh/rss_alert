@@ -1,0 +1,58 @@
+name: 뉴스 피드 수집기
+
+on:
+  # 30분마다 자동 실행
+  schedule:
+    - cron: '*/30 * * * *'
+  
+  # 수동 실행
+  workflow_dispatch:
+  
+  # main 브랜치 push 시
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect-feeds:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Install dependencies
+        run: pip install requests beautifulsoup4
+      
+      - name: 🔍 Run scraper
+        env:
+          SMTP_SERVER: smtp.gmail.com
+          SMTP_PORT: 587
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python scripts/scraper.py
+      
+      - name: 💾 Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/data.json
+          git diff --staged --quiet || git commit -m "📊 Update: $(date +'%Y-%m-%d %H:%M')"
+          git push
+      
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
