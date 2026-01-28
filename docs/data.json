@@ -2,9 +2,191 @@
   "feeds": {
     "한국은행 보도자료": [],
     "통계청 보도자료": [],
-    "통계청 언론보도 설명": []
+    "통계청 언론보도 설명": [],
+    "Hacker News": [
+      {
+        "title": "Show HN: The HN Arcade",
+        "link": "https://andrewgy8.github.io/hnarcade/",
+        "date": "Wed, 28 Jan 2026 10:50:32 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46793693\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738338"
+      },
+      {
+        "title": "There's only one Woz, but we can all learn from him",
+        "link": "https://www.fastcompany.com/91477114/steve-wozniak-woz-apple-the-tech-interactive-humanitarian-award",
+        "date": "Fri, 23 Jan 2026 17:48:25 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46735407\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738353"
+      },
+      {
+        "title": "Devuan – Debian Without Systemd",
+        "link": "https://www.devuan.org/",
+        "date": "Wed, 28 Jan 2026 08:58:28 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46792783\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738356"
+      },
+      {
+        "title": "Prism",
+        "link": "https://openai.com/index/introducing-prism",
+        "date": "Tue, 27 Jan 2026 18:03:10 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46783752\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738358"
+      },
+      {
+        "title": "Rust at Scale: An Added Layer of Security for WhatsApp",
+        "link": "https://engineering.fb.com/2026/01/27/security/rust-at-scale-security-whatsapp/",
+        "date": "Wed, 28 Jan 2026 06:21:07 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46791742\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738360"
+      },
+      {
+        "title": "SVG Path Editor",
+        "link": "https://yqnn.github.io/svg-path-editor/",
+        "date": "Thu, 22 Jan 2026 23:06:05 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46726269\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738362"
+      },
+      {
+        "title": "Kyber (YC W23) Is Hiring a Staff Engineer",
+        "link": "https://www.ycombinator.com/companies/kyber/jobs/GPJkv5v-staff-engineer-tech-lead",
+        "date": "Wed, 28 Jan 2026 12:00:08 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46794231\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738365"
+      },
+      {
+        "title": "A few random notes from Claude coding quite a bit last few weeks",
+        "link": "https://twitter.com/karpathy/status/2015883857489522876",
+        "date": "Mon, 26 Jan 2026 21:09:19 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46771564\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738367"
+      },
+      {
+        "title": "Pandas 3.0",
+        "link": "https://pandas.pydata.org/community/blog/pandas-3.0.html",
+        "date": "Fri, 23 Jan 2026 16:45:47 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46734641\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738369"
+      },
+      {
+        "title": "430k-year-old well-preserved wooden tools are the oldest ever found",
+        "link": "https://www.nytimes.com/2026/01/26/science/archaeology-neanderthals-tools.html",
+        "date": "Tue, 27 Jan 2026 15:46:29 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46781530\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738371"
+      },
+      {
+        "title": "Thirty Years of the Square Kilometre Array",
+        "link": "https://physicsworld.com/a/thirty-years-of-the-square-kilometre-array-heres-what-the-worlds-largest-radio-telescope-project-has-achieved-so-far/",
+        "date": "Sun, 25 Jan 2026 17:53:49 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46756311\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738374"
+      },
+      {
+        "title": "ASML staffing changes could result in a net reduction of around 1700 positions",
+        "link": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation",
+        "date": "Wed, 28 Jan 2026 08:02:42 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46792370\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738376"
+      },
+      {
+        "title": "Golden Ratio using an equilateral triangle inscribed in a circle",
+        "link": "https://geometrycode.com/free/how-to-graphically-derive-the-golden-ratio-using-an-equilateral-triangle-inscribed-in-a-circle/",
+        "date": "Fri, 23 Jan 2026 17:27:48 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46735152\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738378"
+      },
+      {
+        "title": "Make.ts",
+        "link": "https://matklad.github.io/2026/01/27/make-ts.html",
+        "date": "Wed, 28 Jan 2026 07:35:51 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46792194\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738380"
+      },
+      {
+        "title": "Rust’s Standard Library on the GPU",
+        "link": "https://www.vectorware.com/blog/rust-std-on-gpu/",
+        "date": "Sat, 24 Jan 2026 04:49:02 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46741150\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738382"
+      },
+      {
+        "title": "Doing the thing is doing the thing",
+        "link": "https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing",
+        "date": "Tue, 27 Jan 2026 06:17:46 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46776155\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738384"
+      },
+      {
+        "title": "Parametric CAD in Rust",
+        "link": "https://campedersen.com/vcad",
+        "date": "Tue, 27 Jan 2026 20:36:14 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46786196\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738386"
+      },
+      {
+        "title": "Lennart Poettering, Christian Brauner founded a new company",
+        "link": "https://amutable.com/about",
+        "date": "Tue, 27 Jan 2026 18:57:15 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46784572\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738389"
+      },
+      {
+        "title": "I Made a MIT Licensed Mecrisp-Stellaris Language Server",
+        "link": "https://mecrisp-stellaris-folkdoc.sourceforge.io/mecrisp-stellaris-lsp.html",
+        "date": "Sun, 25 Jan 2026 09:08:57 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46752172\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738391"
+      },
+      {
+        "title": "Xfwl4 – The Roadmap for a Xfce Wayland Compositor",
+        "link": "https://alexxcons.github.io/blogpost_15.html",
+        "date": "Tue, 27 Jan 2026 13:25:53 +0000",
+        "summary": "<a href=\"https://news.ycombinator.com/item?id=46779645\">Comments</a>",
+        "source": "Hacker News",
+        "icon": "🔶",
+        "fetched_at": "2026-01-28T21:32:44.738393"
+      }
+    ]
   },
-  "last_updated": "2026-01-28T12:29:40.905872",
-  "feed_count": 3,
-  "total_articles": 0
+  "last_updated": "2026-01-28T21:32:44.738924",
+  "feed_count": 4,
+  "total_articles": 20
 }

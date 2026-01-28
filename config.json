@@ -40,7 +40,7 @@
       "type": "rss",
       "url": "https://news.ycombinator.com/rss",
       "icon": "🔶",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Medium - AI",
