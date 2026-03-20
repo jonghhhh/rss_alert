@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도자료] 2025년중 전자지급서비스 이용현황",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097038&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-03-20",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-03-20T13:26:16.128941+09:00"
+      },
+      {
         "title": "[보도자료] 국고보조사업에 예금토큰 세계 최초 활용",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097033&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-03-19",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.362331+09:00"
+        "fetched_at": "2026-03-20T13:26:16.134164+09:00"
       },
       {
         "title": "2025년 지식서비스 무역통계(잠정)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.367702+09:00"
+        "fetched_at": "2026-03-20T13:26:16.139099+09:00"
       },
       {
         "title": "[보도자료] 한국은행, 「프로젝트 한강」 2단계 본격 추진",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.373228+09:00"
+        "fetched_at": "2026-03-20T13:26:16.144305+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제4차)(2026.2.26)",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.378318+09:00"
+        "fetched_at": "2026-03-20T13:26:16.149671+09:00"
       },
       {
         "title": "2026년 2월 수출입물가지수 및 무역지수(잠정)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.383664+09:00"
+        "fetched_at": "2026-03-20T13:26:16.155024+09:00"
       },
       {
         "title": "2026년 1월 통화 및 유동성",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.389082+09:00"
+        "fetched_at": "2026-03-20T13:26:16.160232+09:00"
       },
       {
         "title": "2026년 2월 이후 국제금융·외환시장 동향",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.394300+09:00"
+        "fetched_at": "2026-03-20T13:26:16.165364+09:00"
       },
       {
         "title": "「통화신용정책보고서」(2026년 3월)",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.399530+09:00"
+        "fetched_at": "2026-03-20T13:26:16.170254+09:00"
       },
       {
         "title": "2026년 2월 금융시장 동향",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.404728+09:00"
-      },
-      {
-        "title": "2025년 4/4분기 및 연간 국민소득(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10096874&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-03-10",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-03-20T11:13:41.410058+09:00"
+        "fetched_at": "2026-03-20T13:26:16.175186+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-03-20T11:13:43.056202+09:00",
+  "last_updated": "2026-03-20T13:26:18.306441+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
