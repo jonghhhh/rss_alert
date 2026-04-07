@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도자료]「한국은행･프랑스중앙은행 공동 세미나」 개최",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097368&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-04-07",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-04-07T15:52:49.271279+09:00"
+      },
+      {
         "title": "「2026년 제23회 통화정책 경시대회」개최",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097376&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-04-07",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.386674+09:00"
+        "fetched_at": "2026-04-07T15:52:49.276368+09:00"
       },
       {
         "title": "2026년 3월말 외환보유액",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.391855+09:00"
+        "fetched_at": "2026-04-07T15:52:49.281529+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 3월 「물가상황점검회의」 개최",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.396890+09:00"
+        "fetched_at": "2026-04-07T15:52:49.286647+09:00"
       },
       {
         "title": "한국-인도네시아간 양방향 QR기반 지급서비스 실시",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.402181+09:00"
+        "fetched_at": "2026-04-07T15:52:49.292014+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제5차)(2026.3.12)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.407530+09:00"
+        "fetched_at": "2026-04-07T15:52:49.297183+09:00"
       },
       {
         "title": "[보도자료] 지표금리 개편방안",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.413096+09:00"
+        "fetched_at": "2026-04-07T15:52:49.302187+09:00"
       },
       {
         "title": "[보도자료] 2025년중 국내 지급결제동향",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.418597+09:00"
+        "fetched_at": "2026-04-07T15:52:49.307142+09:00"
       },
       {
         "title": "[보도자료] 한은금융망 운영시간 연장 가동",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.423914+09:00"
+        "fetched_at": "2026-04-07T15:52:49.312006+09:00"
       },
       {
         "title": "2026년 2월 금융기관 가중평균금리",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.428985+09:00"
-      },
-      {
-        "title": "2026년 3월 기업경기조사 결과 및 경제심리지수(ESI)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10097143&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-03-27",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-04-07T14:11:36.434040+09:00"
+        "fetched_at": "2026-04-07T15:52:49.316801+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-04-07T14:11:38.257016+09:00",
+  "last_updated": "2026-04-07T15:52:51.145760+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
