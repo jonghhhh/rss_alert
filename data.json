@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도자료] 이창용 한국은행 총재, 「G20 재무장관·중앙은행총재 회의」 및 「IMF-WBG 춘계회의」 등 참석",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097477&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-04-12",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-04-12T14:26:00.924407+09:00"
+      },
+      {
         "title": "경제상황 평가(2026.4월)",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097446&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-04-10",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.302017+09:00"
+        "fetched_at": "2026-04-12T14:26:00.929100+09:00"
       },
       {
         "title": "통화정책방향(2026.4.10)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.307077+09:00"
+        "fetched_at": "2026-04-12T14:26:00.934039+09:00"
       },
       {
         "title": "2026년 3월 이후 국제금융·외환시장 동향",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.312410+09:00"
+        "fetched_at": "2026-04-12T14:26:00.938976+09:00"
       },
       {
         "title": "2025년 자금순환(잠정)",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.317366+09:00"
+        "fetched_at": "2026-04-12T14:26:00.943515+09:00"
       },
       {
         "title": "2026년 3월 금융시장 동향",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.322124+09:00"
+        "fetched_at": "2026-04-12T14:26:00.948103+09:00"
       },
       {
         "title": "2026년 2월 국제수지(잠정)",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.326914+09:00"
+        "fetched_at": "2026-04-12T14:26:00.952774+09:00"
       },
       {
         "title": "[보도자료]「한국은행･프랑스중앙은행 공동 세미나」 개최",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.331804+09:00"
+        "fetched_at": "2026-04-12T14:26:00.957474+09:00"
       },
       {
         "title": "「2026년 제23회 통화정책 경시대회」개최",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.336873+09:00"
+        "fetched_at": "2026-04-12T14:26:00.961851+09:00"
       },
       {
         "title": "2026년 3월말 외환보유액",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.341590+09:00"
-      },
-      {
-        "title": "[보도참고자료] 2026년 3월 「물가상황점검회의」 개최",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097299&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-04-02",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-04-12T11:46:23.346468+09:00"
+        "fetched_at": "2026-04-12T14:26:00.966221+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-04-12T11:46:26.231326+09:00",
+  "last_updated": "2026-04-12T14:26:02.572335+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
