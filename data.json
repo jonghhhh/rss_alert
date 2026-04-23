@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도자료] 구윤철 경제부총리-신현송 한국은행 총재 회동 결과",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097646&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-04-23",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-04-23T11:46:54.627904+09:00"
+      },
+      {
         "title": "2026년 1/4분기 실질 국내총생산(속보)",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10097644&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-04-23",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.942560+09:00"
+        "fetched_at": "2026-04-23T11:46:54.633798+09:00"
       },
       {
         "title": "2026년 4월 소비자동향조사 결과",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.947325+09:00"
+        "fetched_at": "2026-04-23T11:46:54.638559+09:00"
       },
       {
         "title": "[보도자료] 2026년 3월중 거주자외화예금 동향",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.951990+09:00"
+        "fetched_at": "2026-04-23T11:46:54.643286+09:00"
       },
       {
         "title": "2026년 3월 생산자물가지수(잠정)",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.956756+09:00"
+        "fetched_at": "2026-04-23T11:46:54.648058+09:00"
       },
       {
         "title": "금융기관 대출행태서베이 결과(2026년 1/4분기 동향 및 2026년 2/4분기 전망)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.961568+09:00"
+        "fetched_at": "2026-04-23T11:46:54.653182+09:00"
       },
       {
         "title": "신현송 한국은행 총재 취임사",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.967054+09:00"
+        "fetched_at": "2026-04-23T11:46:54.658114+09:00"
       },
       {
         "title": "2025년 결제통화별 수출입",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.971859+09:00"
+        "fetched_at": "2026-04-23T11:46:54.663010+09:00"
       },
       {
         "title": "2026년 2월 통화 및 유동성",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.976438+09:00"
+        "fetched_at": "2026-04-23T11:46:54.667733+09:00"
       },
       {
         "title": "2026년 3월 수출입물가지수 및 무역지수(잠정)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.980845+09:00"
-      },
-      {
-        "title": "금융통화위원회 의사록(2026년 제6차)(2026.3.26)",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10097307&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-04-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-04-23T08:48:40.985268+09:00"
+        "fetched_at": "2026-04-23T11:46:54.672397+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-04-23T08:48:42.615458+09:00",
+  "last_updated": "2026-04-23T11:46:55.934748+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
