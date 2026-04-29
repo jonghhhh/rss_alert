@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 1/4분기중 외국환은행의 외환거래 동향",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097738&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-04-29",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-04-29T12:30:49.455097+09:00"
+      },
+      {
         "title": "금융통화위원회 의사록(2026년 제7차)(2026.4.10)",
         "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10097750&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
         "date": "2026-04-28",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.869203+09:00"
+        "fetched_at": "2026-04-29T12:30:49.460119+09:00"
       },
       {
         "title": "2026년 3월 금융기관 가중평균금리",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.874432+09:00"
+        "fetched_at": "2026-04-29T12:30:49.465075+09:00"
       },
       {
         "title": "2026년 4월 기업경기조사 결과 및 경제심리지수(ESI)",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.879217+09:00"
+        "fetched_at": "2026-04-29T12:30:49.470427+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 5월 통화안정증권 발행 계획",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.884606+09:00"
+        "fetched_at": "2026-04-29T12:30:49.475762+09:00"
       },
       {
         "title": "[보도자료] 구윤철 경제부총리-신현송 한국은행 총재 회동 결과",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.889671+09:00"
+        "fetched_at": "2026-04-29T12:30:49.481299+09:00"
       },
       {
         "title": "2026년 1/4분기 실질 국내총생산(속보)",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.896364+09:00"
+        "fetched_at": "2026-04-29T12:30:49.486192+09:00"
       },
       {
         "title": "2026년 4월 소비자동향조사 결과",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.902226+09:00"
+        "fetched_at": "2026-04-29T12:30:49.491040+09:00"
       },
       {
         "title": "[보도자료] 2026년 3월중 거주자외화예금 동향",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.907743+09:00"
+        "fetched_at": "2026-04-29T12:30:49.495845+09:00"
       },
       {
         "title": "2026년 3월 생산자물가지수(잠정)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.912530+09:00"
-      },
-      {
-        "title": "금융기관 대출행태서베이 결과(2026년 1/4분기 동향 및 2026년 2/4분기 전망)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097592&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-04-21",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-04-29T08:56:18.917449+09:00"
+        "fetched_at": "2026-04-29T12:30:49.500933+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-04-29T08:56:20.215063+09:00",
+  "last_updated": "2026-04-29T12:30:50.604593+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
