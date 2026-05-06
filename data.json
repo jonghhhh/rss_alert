@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 4월말 외환보유액",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097853&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-05-07",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-05-07T06:13:00.877289+09:00"
+      },
+      {
         "title": "[보도참고자료] 2026년 4월 「물가상황점검회의」 개최",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097837&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-05-06",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.897243+09:00"
+        "fetched_at": "2026-05-07T06:13:00.882377+09:00"
       },
       {
         "title": "「한중일 및 ASEAN+3 재무장관‧중앙은행총재 회의」 결과",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.902148+09:00"
+        "fetched_at": "2026-05-07T06:13:00.887815+09:00"
       },
       {
         "title": "유상대 한국은행 부총재, 「한중일 재무장관‧중앙은행총재 회의」, 「ASEAN+3 재무장관‧중앙은행총재 회의」, 「ADB 연차총회」 참석",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.907371+09:00"
+        "fetched_at": "2026-05-07T06:13:00.892823+09:00"
       },
       {
         "title": "2026년 1/4분기중 외국환은행의 외환거래 동향",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.912425+09:00"
+        "fetched_at": "2026-05-07T06:13:00.898481+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제7차)(2026.4.10)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.928186+09:00"
+        "fetched_at": "2026-05-07T06:13:00.903478+09:00"
       },
       {
         "title": "2026년 3월 금융기관 가중평균금리",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.933164+09:00"
+        "fetched_at": "2026-05-07T06:13:00.908607+09:00"
       },
       {
         "title": "2026년 4월 기업경기조사 결과 및 경제심리지수(ESI)",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.937754+09:00"
+        "fetched_at": "2026-05-07T06:13:00.913561+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 5월 통화안정증권 발행 계획",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.942815+09:00"
+        "fetched_at": "2026-05-07T06:13:00.918480+09:00"
       },
       {
         "title": "[보도자료] 구윤철 경제부총리-신현송 한국은행 총재 회동 결과",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.947423+09:00"
-      },
-      {
-        "title": "2026년 1/4분기 실질 국내총생산(속보)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10097644&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-04-23",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-05-07T04:48:24.951966+09:00"
+        "fetched_at": "2026-05-07T06:13:00.923283+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-05-07T04:48:27.914428+09:00",
+  "last_updated": "2026-05-07T06:13:02.572957+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
