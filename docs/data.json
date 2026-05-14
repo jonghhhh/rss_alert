@@ -2,13 +2,31 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도자료] 신현송 한국은행 총재-박홍근 기획예산처 장관 회동 결과",
+        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10097984&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
+        "date": "2026-05-14",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-05-14T14:08:33.602937+09:00"
+      },
+      {
+        "title": "「제48차 유네스코 세계유산위원회」 기념주화 발행",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097968&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-05-14",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-05-14T14:08:33.608459+09:00"
+      },
+      {
         "title": "2026년 3월 통화 및 유동성",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10097930&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-05-13",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.809614+09:00"
+        "fetched_at": "2026-05-14T14:08:33.614008+09:00"
       },
       {
         "title": "[보도자료] 신현송 한국은행 총재, 「BIS 이사회」 이사로 선임",
@@ -17,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.814735+09:00"
+        "fetched_at": "2026-05-14T14:08:33.619653+09:00"
       },
       {
         "title": "[보도자료] 금융통화위원회 위원 추천",
@@ -26,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.819927+09:00"
+        "fetched_at": "2026-05-14T14:08:33.626331+09:00"
       },
       {
         "title": "[보도자료] 신현송 한국은행 총재, BIS 총재회의 참석",
@@ -35,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.825803+09:00"
+        "fetched_at": "2026-05-14T14:08:33.632236+09:00"
       },
       {
         "title": "2026년 3월 국제수지(잠정)",
@@ -44,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.831666+09:00"
+        "fetched_at": "2026-05-14T14:08:33.637891+09:00"
       },
       {
         "title": "2026년 4월말 외환보유액",
@@ -53,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.836791+09:00"
+        "fetched_at": "2026-05-14T14:08:33.643228+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 4월 「물가상황점검회의」 개최",
@@ -62,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.841733+09:00"
+        "fetched_at": "2026-05-14T14:08:33.648594+09:00"
       },
       {
         "title": "「한중일 및 ASEAN+3 재무장관‧중앙은행총재 회의」 결과",
@@ -71,31 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.847190+09:00"
-      },
-      {
-        "title": "유상대 한국은행 부총재, 「한중일 재무장관‧중앙은행총재 회의」, 「ASEAN+3 재무장관‧중앙은행총재 회의」, 「ADB 연차총회」 참석",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097795&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-04-30",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.852538+09:00"
-      },
-      {
-        "title": "2026년 1/4분기중 외국환은행의 외환거래 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097738&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-04-29",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-05-14T10:27:02.857426+09:00"
+        "fetched_at": "2026-05-14T14:08:33.653507+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-05-14T10:27:06.281515+09:00",
+  "last_updated": "2026-05-14T14:08:35.600752+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
