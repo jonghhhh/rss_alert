@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 1/4분기중 가계신용(잠정)",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098042&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
+        "date": "2026-05-19",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-05-19T14:46:09.838147+09:00"
+      },
+      {
         "title": "2026년 4월 금융시장 동향",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098015&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-05-17",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.456218+09:00"
+        "fetched_at": "2026-05-19T14:46:09.842774+09:00"
       },
       {
         "title": "신현송 한국은행 총재, 「G7 재무장관·중앙은행총재 회의」 참석",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.460932+09:00"
+        "fetched_at": "2026-05-19T14:46:09.847243+09:00"
       },
       {
         "title": "2026년 상반기 「화폐유통시스템 유관기관 협의회」 정기회의 개최 결과",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.465600+09:00"
+        "fetched_at": "2026-05-19T14:46:09.851982+09:00"
       },
       {
         "title": "2026년 4월 이후 국제금융·외환시장 동향",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.470523+09:00"
+        "fetched_at": "2026-05-19T14:46:09.856549+09:00"
       },
       {
         "title": "2026년 4월 수출입물가지수 및 무역지수(잠정)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.475176+09:00"
+        "fetched_at": "2026-05-19T14:46:09.861707+09:00"
       },
       {
         "title": "[보도자료] 신현송 한국은행 총재-박홍근 기획예산처 장관 회동 결과",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.480323+09:00"
+        "fetched_at": "2026-05-19T14:46:09.866368+09:00"
       },
       {
         "title": "「제48차 유네스코 세계유산위원회」 기념주화 발행",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.485173+09:00"
+        "fetched_at": "2026-05-19T14:46:09.870915+09:00"
       },
       {
         "title": "2026년 3월 통화 및 유동성",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.489753+09:00"
+        "fetched_at": "2026-05-19T14:46:09.875469+09:00"
       },
       {
         "title": "[보도자료] 신현송 한국은행 총재, 「BIS 이사회」 이사로 선임",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.494438+09:00"
-      },
-      {
-        "title": "[보도자료] 금융통화위원회 위원 추천",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097914&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-05-11",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-05-19T10:30:10.498855+09:00"
+        "fetched_at": "2026-05-19T14:46:09.879884+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-05-19T10:30:12.268072+09:00",
+  "last_updated": "2026-05-19T14:46:12.852397+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
