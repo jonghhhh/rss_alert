@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 1/4분기 국제투자대조표(잠정)",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098138&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
+        "date": "2026-05-27",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-05-27T12:58:54.311183+09:00"
+      },
+      {
         "title": "2026년 5월 기업경기조사 결과 및 경제심리지수(ESI)",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098124&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-05-27",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.447168+09:00"
+        "fetched_at": "2026-05-27T12:58:54.316096+09:00"
       },
       {
         "title": "[보도자료] 한은금융망 국제금융전문표준(ISO 20022) 체계 도입",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.452017+09:00"
+        "fetched_at": "2026-05-27T12:58:54.321030+09:00"
       },
       {
         "title": "[보도자료] 2026년 1/4분기 차주별 가계부채",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.456969+09:00"
+        "fetched_at": "2026-05-27T12:58:54.326037+09:00"
       },
       {
         "title": "2026년 5월 소비자동향조사 결과",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.462025+09:00"
+        "fetched_at": "2026-05-27T12:58:54.331004+09:00"
       },
       {
         "title": "2026년 4월 생산자물가지수(잠정)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.466848+09:00"
+        "fetched_at": "2026-05-27T12:58:54.336417+09:00"
       },
       {
         "title": "2026년 1/4분기중 가계신용(잠정)",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.472270+09:00"
+        "fetched_at": "2026-05-27T12:58:54.341929+09:00"
       },
       {
         "title": "2026년 4월 금융시장 동향",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.477809+09:00"
+        "fetched_at": "2026-05-27T12:58:54.346964+09:00"
       },
       {
         "title": "신현송 한국은행 총재, 「G7 재무장관·중앙은행총재 회의」 참석",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.483174+09:00"
+        "fetched_at": "2026-05-27T12:58:54.352188+09:00"
       },
       {
         "title": "2026년 상반기 「화폐유통시스템 유관기관 협의회」 정기회의 개최 결과",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.488145+09:00"
-      },
-      {
-        "title": "2026년 4월 이후 국제금융·외환시장 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10097997&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-05-15",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-05-27T08:40:59.492918+09:00"
+        "fetched_at": "2026-05-27T12:58:54.356978+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-05-27T08:41:01.503618+09:00",
+  "last_updated": "2026-05-27T12:58:56.437151+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
