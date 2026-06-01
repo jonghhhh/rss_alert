@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "「2026년 BOK 국제컨퍼런스」 발표 논문 (1일차) 주요 내용",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098258&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-06-01",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-06-01T10:39:50.161784+09:00"
+      },
+      {
         "title": "한국은행,「2026년 BOK 국제컨퍼런스」 개최",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098257&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-05-31",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.884047+09:00"
+        "fetched_at": "2026-06-01T10:39:50.166687+09:00"
       },
       {
         "title": "[보도자료] 2026년 4월중 거주자외화예금 동향",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.888643+09:00"
+        "fetched_at": "2026-06-01T10:39:50.171426+09:00"
       },
       {
         "title": "2026년 4월 금융기관 가중평균금리",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.893145+09:00"
+        "fetched_at": "2026-06-01T10:39:50.176411+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 6월 통화안정증권 발행 계획",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.897762+09:00"
+        "fetched_at": "2026-06-01T10:39:50.181235+09:00"
       },
       {
         "title": "경제전망(2026년 5월)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.902248+09:00"
+        "fetched_at": "2026-06-01T10:39:50.186949+09:00"
       },
       {
         "title": "통화정책방향(2026.5.28)",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.906959+09:00"
+        "fetched_at": "2026-06-01T10:39:50.191834+09:00"
       },
       {
         "title": "[보도자료] 한국은행, BIS 등과 공동 수행한 프로젝트 아고라 플랫폼(프로토타입) 구축 및 실거래 테스트 참여",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.911831+09:00"
+        "fetched_at": "2026-06-01T10:39:50.196753+09:00"
       },
       {
         "title": "2026년 1/4분기 국제투자대조표(잠정)",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.916960+09:00"
+        "fetched_at": "2026-06-01T10:39:50.201535+09:00"
       },
       {
         "title": "2026년 5월 기업경기조사 결과 및 경제심리지수(ESI)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.921645+09:00"
-      },
-      {
-        "title": "[보도자료] 한은금융망 국제금융전문표준(ISO 20022) 체계 도입",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098126&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-05-26",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-06-01T08:01:31.925992+09:00"
+        "fetched_at": "2026-06-01T10:39:50.206141+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-06-01T08:01:33.808692+09:00",
+  "last_updated": "2026-06-01T10:39:51.949883+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
