@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "한국은행-오죽헌‧시립박물관 공동주관 화폐기획전 「四時貨色 : 국립공원의 사계, 화폐에 물들다」개최",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098346&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-06-08",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-06-08T19:04:46.712153+09:00"
+      },
+      {
         "title": "2026년 1/4분기 예금취급기관 산업별 대출금",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098352&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-06-08",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.029082+09:00"
+        "fetched_at": "2026-06-08T19:04:46.717292+09:00"
       },
       {
         "title": "한국은행 부총재보 인사",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.033821+09:00"
+        "fetched_at": "2026-06-08T19:04:46.722294+09:00"
       },
       {
         "title": "2026년 1/4분기중 거주자의 카드 해외 사용실적",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.038855+09:00"
+        "fetched_at": "2026-06-08T19:04:46.727310+09:00"
       },
       {
         "title": "2026년 4월 국제수지(잠정)",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.043677+09:00"
+        "fetched_at": "2026-06-08T19:04:46.732447+09:00"
       },
       {
         "title": "2026년 5월말 외환보유액",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.048404+09:00"
+        "fetched_at": "2026-06-08T19:04:46.737700+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 5월 「물가상황점검회의」 개최",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.053573+09:00"
+        "fetched_at": "2026-06-08T19:04:46.742660+09:00"
       },
       {
         "title": "「2026년 BOK 국제컨퍼런스」 발표 논문 (2일차) 주요 내용",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.058310+09:00"
+        "fetched_at": "2026-06-08T19:04:46.747885+09:00"
       },
       {
         "title": "[보도자료] 2026년 1/4분기중 주요 기관투자가의 외화증권투자 동향",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.062887+09:00"
+        "fetched_at": "2026-06-08T19:04:46.753041+09:00"
       },
       {
         "title": "「2026년 BOK 국제컨퍼런스」 발표 논문 (1일차) 주요 내용",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.067431+09:00"
-      },
-      {
-        "title": "한국은행,「2026년 BOK 국제컨퍼런스」 개최",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098257&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-05-31",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-06-08T14:13:32.072105+09:00"
+        "fetched_at": "2026-06-08T19:04:46.758121+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-06-08T14:18:01.815803+09:00",
+  "last_updated": "2026-06-08T19:04:48.798012+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
