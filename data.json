@@ -2,13 +2,31 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 5월 금융시장 동향",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098420&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-06-11",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-06-11T16:14:28.159303+09:00"
+      },
+      {
+        "title": "[보도참고자료] 외화예금 초과지급준비금에 대한 이자지급 연장",
+        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098431&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
+        "date": "2026-06-11",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-06-11T16:14:28.164037+09:00"
+      },
+      {
         "title": "2025년 기업경영분석 결과(속보)",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098408&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-06-10",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.192420+09:00"
+        "fetched_at": "2026-06-11T16:14:28.168772+09:00"
       },
       {
         "title": "2026년 1/4분기 국민소득(잠정)",
@@ -17,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.197133+09:00"
+        "fetched_at": "2026-06-11T16:14:28.173499+09:00"
       },
       {
         "title": "2024년 국민계정(확정) 및 2025년 국민계정(잠정)",
@@ -26,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.201743+09:00"
+        "fetched_at": "2026-06-11T16:14:28.177981+09:00"
       },
       {
         "title": "한국은행-오죽헌‧시립박물관 공동주관 화폐기획전 「四時貨色 : 국립공원의 사계, 화폐에 물들다」개최",
@@ -35,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.207320+09:00"
+        "fetched_at": "2026-06-11T16:14:28.183450+09:00"
       },
       {
         "title": "2026년 1/4분기 예금취급기관 산업별 대출금",
@@ -44,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.211858+09:00"
+        "fetched_at": "2026-06-11T16:14:28.188027+09:00"
       },
       {
         "title": "한국은행 부총재보 인사",
@@ -53,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.216576+09:00"
+        "fetched_at": "2026-06-11T16:14:28.192466+09:00"
       },
       {
         "title": "2026년 1/4분기중 거주자의 카드 해외 사용실적",
@@ -62,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.221087+09:00"
+        "fetched_at": "2026-06-11T16:14:28.197027+09:00"
       },
       {
         "title": "2026년 4월 국제수지(잠정)",
@@ -71,31 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.225595+09:00"
-      },
-      {
-        "title": "2026년 5월말 외환보유액",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098299&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-06-04",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.230311+09:00"
-      },
-      {
-        "title": "[보도참고자료] 2026년 5월 「물가상황점검회의」 개최",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098283&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-06-02",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-06-11T11:01:27.234803+09:00"
+        "fetched_at": "2026-06-11T16:14:28.201520+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-06-11T11:05:56.921272+09:00",
+  "last_updated": "2026-06-11T16:18:59.164989+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
