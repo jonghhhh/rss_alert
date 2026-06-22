@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 6월 소비자동향조사 결과",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098580&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
+        "date": "2026-06-23",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-06-23T06:39:44.701918+09:00"
+      },
+      {
         "title": "2025년 지역별 국제수지(잠정)",
         "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098547&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
         "date": "2026-06-19",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.705357+09:00"
+        "fetched_at": "2026-06-23T06:39:44.706954+09:00"
       },
       {
         "title": "2026년 5월 생산자물가지수(잠정)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.710172+09:00"
+        "fetched_at": "2026-06-23T06:39:44.712181+09:00"
       },
       {
         "title": "[보도참고자료] 굴곡압착방식의 주화 폐기 개시",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.714971+09:00"
+        "fetched_at": "2026-06-23T06:39:44.717434+09:00"
       },
       {
         "title": "[보도자료] 물가안정목표 운영상황 점검",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.719994+09:00"
+        "fetched_at": "2026-06-23T06:39:44.722337+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제10차)(2026.5.28)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.725054+09:00"
+        "fetched_at": "2026-06-23T06:39:44.727876+09:00"
       },
       {
         "title": "2026년 4월 통화 및 유동성",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.731196+09:00"
+        "fetched_at": "2026-06-23T06:39:44.733062+09:00"
       },
       {
         "title": "2026년 화폐사랑 콘텐츠 공모전 개최",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.736027+09:00"
+        "fetched_at": "2026-06-23T06:39:44.738130+09:00"
       },
       {
         "title": "2026년 5월 수출입물가지수 및 무역지수(잠정)",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.740777+09:00"
+        "fetched_at": "2026-06-23T06:39:44.743066+09:00"
       },
       {
         "title": "2026년 5월 이후 국제금융·외환시장 동향",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.745508+09:00"
-      },
-      {
-        "title": "신현송 총재, 창립 제76주년 기념사",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=10098454&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-06-12",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-06-23T04:30:17.750148+09:00"
+        "fetched_at": "2026-06-23T06:39:44.747977+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-06-23T04:34:48.053027+09:00",
+  "last_updated": "2026-06-23T06:44:16.150689+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
