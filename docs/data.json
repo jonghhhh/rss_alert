@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "[보도참고자료] 2026년 6월 「물가상황점검회의」 개최",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062549&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
+        "date": "2026-07-02",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-07-02T13:40:19.024171+09:00"
+      },
+      {
         "title": "[보도자료] 청사진에서 일상으로: 미래 화폐를 현실로 옮긴 프로젝트 한강",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062536&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-07-01",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.774752+09:00"
+        "fetched_at": "2026-07-02T13:40:19.029305+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제11차)(2026.6.11)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.779846+09:00"
+        "fetched_at": "2026-07-02T13:40:19.033995+09:00"
       },
       {
         "title": "[보도참고자료] 2010-2015-2020년 접속산업연관표 작성결과",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.785013+09:00"
+        "fetched_at": "2026-07-02T13:40:19.039000+09:00"
       },
       {
         "title": "한국은행, 경제연구원장(Chief Economist) 공모",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.790073+09:00"
+        "fetched_at": "2026-07-02T13:40:19.045055+09:00"
       },
       {
         "title": "[보도참고자료] 제48차 유네스코 세계유산위원회 기념주화 교부일정 및 온·오프라인 판매 안내",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.794921+09:00"
+        "fetched_at": "2026-07-02T13:40:19.050488+09:00"
       },
       {
         "title": "[보도자료] 2026년 5월중 거주자외화예금 동향",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.800437+09:00"
+        "fetched_at": "2026-07-02T13:40:19.055488+09:00"
       },
       {
         "title": "2026년 5월 금융기관 가중평균금리",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.805799+09:00"
+        "fetched_at": "2026-07-02T13:40:19.060432+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 7월 통화안정증권 발행 계획",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.810709+09:00"
+        "fetched_at": "2026-07-02T13:40:19.065238+09:00"
       },
       {
         "title": "2025년 지역별·통화별 국제투자대조표(잠정)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.815637+09:00"
-      },
-      {
-        "title": "2026년 6월 기업경기조사 결과 및 경제심리지수(ESI)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062198&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-06-25",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-02T09:09:04.820751+09:00"
+        "fetched_at": "2026-07-02T13:40:19.070289+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-07-02T09:13:35.904195+09:00",
+  "last_updated": "2026-07-02T13:44:48.762087+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
