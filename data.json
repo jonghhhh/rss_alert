@@ -1,101 +1,10 @@
 {
   "feeds": {
-    "한국은행 보도자료": [
-      {
-        "title": "2026년 6월 수출입물가지수 및 무역지수(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062873&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-07-15",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.666280+09:00"
-      },
-      {
-        "title": "2026년 6월 이후 국제금융·외환시장 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062851&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-07-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.671937+09:00"
-      },
-      {
-        "title": "금융통화위원회 의사록(2026년 제12차)(2026.6.24)",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11062676&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-07-10",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.678148+09:00"
-      },
-      {
-        "title": "[보도자료] 한국은행, 몽골중앙은행과 교류협력 양해각서(MOU) 개정 체결",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062783&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-07-10",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.685464+09:00"
-      },
-      {
-        "title": "2026년 6월 금융시장 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062754&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-07-09",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.690269+09:00"
-      },
-      {
-        "title": "2026년 상반기 위조지폐 발견 현황 및 위조화폐 유통방지 유공자 포상",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062698&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-07-08",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.695698+09:00"
-      },
-      {
-        "title": "2026년 5월 국제수지(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062667&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-07-08",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.700575+09:00"
-      },
-      {
-        "title": "2026년 1/4분기중 자금순환(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062626&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-07-07",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.705478+09:00"
-      },
-      {
-        "title": "[보도자료] 외환시장 24시간 개장, 원화의 글로벌 도약의 시작",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11062621&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-07-06",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.709922+09:00"
-      },
-      {
-        "title": "[보도자료] 한국은행, World Bank와 「공적 자산운용기관을 위한 AI 입문서」 공동 발간",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11062605&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-07-05",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-07-15T06:30:47.714581+09:00"
-      }
-    ],
+    "한국은행 보도자료": [],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-07-15T06:35:15.817240+09:00",
+  "last_updated": "2026-07-15T08:02:25.677497+09:00",
   "feed_count": 3,
-  "total_articles": 10
+  "total_articles": 0
 }
