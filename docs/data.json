@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 6월 국제수지(잠정)",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063547&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
+        "date": "2026-08-06",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-08-06T09:00:27.567279+09:00"
+      },
+      {
         "title": "2026년 7월말 외환보유액",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063505&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-08-05",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.614575+09:00"
+        "fetched_at": "2026-08-06T09:00:27.572274+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제13차)(2026.7.16)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.638657+09:00"
+        "fetched_at": "2026-08-06T09:00:27.576997+09:00"
       },
       {
         "title": "[보도참고자료]경제통계시스템(ECOS) 속보 및 잠정 표기 기능 신설",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.643665+09:00"
+        "fetched_at": "2026-08-06T09:00:27.581664+09:00"
       },
       {
         "title": "[보도참고자료] 2026년 7월 「물가상황점검회의」 개최",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.648328+09:00"
+        "fetched_at": "2026-08-06T09:00:27.586446+09:00"
       },
       {
         "title": "[보도자료] 한국은행, 국내 생산 금 매입 협력 체계 구축",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.652694+09:00"
+        "fetched_at": "2026-08-06T09:00:27.591879+09:00"
       },
       {
         "title": "2025년 북한 경제성장률 추정 결과",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.657788+09:00"
+        "fetched_at": "2026-08-06T09:00:27.596786+09:00"
       },
       {
         "title": "2026년 2/4분기중 외국환은행의 외환거래 동향",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.662446+09:00"
+        "fetched_at": "2026-08-06T09:00:27.601870+09:00"
       },
       {
         "title": "[보도자료] 한국은행, 프로젝트 아고라 실거래 테스트 참여",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.666916+09:00"
+        "fetched_at": "2026-08-06T09:00:27.606539+09:00"
       },
       {
         "title": "2026년 7월 기업경기조사 결과 및 경제심리지수(ESI)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.671180+09:00"
-      },
-      {
-        "title": "2026년 6월 금융기관 가중평균금리",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063198&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-07-28",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-06T07:34:45.675460+09:00"
+        "fetched_at": "2026-08-06T09:00:27.611389+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-08-06T07:39:17.005640+09:00",
+  "last_updated": "2026-08-06T09:04:58.782922+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
