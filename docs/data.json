@@ -2,13 +2,22 @@
   "feeds": {
     "한국은행 보도자료": [
       {
+        "title": "2026년 6월 통화 및 유동성",
+        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063779&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
+        "date": "2026-08-14",
+        "summary": "",
+        "source": "한국은행 보도자료",
+        "icon": "🏦",
+        "fetched_at": "2026-08-14T13:22:23.666956+09:00"
+      },
+      {
         "title": "2026년 7월 금융시장 동향",
         "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063801&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
         "date": "2026-08-14",
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.750710+09:00"
+        "fetched_at": "2026-08-14T13:22:23.671836+09:00"
       },
       {
         "title": "2026년 7월 수출입물가지수 및 무역지수(잠정)",
@@ -17,7 +26,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.755374+09:00"
+        "fetched_at": "2026-08-14T13:22:23.676427+09:00"
       },
       {
         "title": "2026년 7월 이후 국제금융·외환시장 동향",
@@ -26,7 +35,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.760057+09:00"
+        "fetched_at": "2026-08-14T13:22:23.681095+09:00"
       },
       {
         "title": "「2026 제23회 한국은행 통화정책 경시대회」 전국결선대회 개최 결과",
@@ -35,7 +44,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.765177+09:00"
+        "fetched_at": "2026-08-14T13:22:23.686551+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제14차)(2026.7.23)",
@@ -44,7 +53,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.770005+09:00"
+        "fetched_at": "2026-08-14T13:22:23.691323+09:00"
       },
       {
         "title": "[보도자료] 통화안정증권 발행제도 개선",
@@ -53,7 +62,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.774743+09:00"
+        "fetched_at": "2026-08-14T13:22:23.695789+09:00"
       },
       {
         "title": "2026년 6월 국제수지(잠정)",
@@ -62,7 +71,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.779426+09:00"
+        "fetched_at": "2026-08-14T13:22:23.700543+09:00"
       },
       {
         "title": "2026년 7월말 외환보유액",
@@ -71,7 +80,7 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.784253+09:00"
+        "fetched_at": "2026-08-14T13:22:23.705026+09:00"
       },
       {
         "title": "금융통화위원회 의사록(2026년 제13차)(2026.7.16)",
@@ -80,22 +89,13 @@
         "summary": "",
         "source": "한국은행 보도자료",
         "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.789139+09:00"
-      },
-      {
-        "title": "[보도참고자료]경제통계시스템(ECOS) 속보 및 잠정 표기 기능 신설",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063460&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-04",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-14T11:01:37.793895+09:00"
+        "fetched_at": "2026-08-14T13:22:23.709818+09:00"
       }
     ],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-08-14T11:06:07.402341+09:00",
+  "last_updated": "2026-08-14T13:26:55.666405+09:00",
   "feed_count": 3,
   "total_articles": 10
 }
