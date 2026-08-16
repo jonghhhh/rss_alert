@@ -1,101 +1,10 @@
 {
   "feeds": {
-    "한국은행 보도자료": [
-      {
-        "title": "2026년 6월 통화 및 유동성",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063779&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.977441+09:00"
-      },
-      {
-        "title": "2026년 7월 금융시장 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063801&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.981788+09:00"
-      },
-      {
-        "title": "2026년 7월 수출입물가지수 및 무역지수(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063768&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.986036+09:00"
-      },
-      {
-        "title": "2026년 7월 이후 국제금융·외환시장 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063755&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-13",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.990380+09:00"
-      },
-      {
-        "title": "「2026 제23회 한국은행 통화정책 경시대회」 전국결선대회 개최 결과",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063747&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-12",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.994643+09:00"
-      },
-      {
-        "title": "금융통화위원회 의사록(2026년 제14차)(2026.7.23)",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11063631&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-08-11",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:04.998747+09:00"
-      },
-      {
-        "title": "[보도자료] 통화안정증권 발행제도 개선",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063642&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-10",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:05.002660+09:00"
-      },
-      {
-        "title": "2026년 6월 국제수지(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063547&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-06",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:05.006861+09:00"
-      },
-      {
-        "title": "2026년 7월말 외환보유액",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063505&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-05",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:05.011037+09:00"
-      },
-      {
-        "title": "금융통화위원회 의사록(2026년 제13차)(2026.7.16)",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11063511&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-08-04",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-16T15:45:05.015155+09:00"
-      }
-    ],
+    "한국은행 보도자료": [],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-08-16T15:49:36.315733+09:00",
+  "last_updated": "2026-08-16T16:36:46.053941+09:00",
   "feed_count": 3,
-  "total_articles": 10
+  "total_articles": 0
 }
