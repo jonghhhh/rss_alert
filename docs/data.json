@@ -1,101 +1,10 @@
 {
   "feeds": {
-    "한국은행 보도자료": [
-      {
-        "title": "2026년 7월 금융기관 가중평균금리",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064110&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-26",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.667055+09:00"
-      },
-      {
-        "title": "2026년 8월 기업경기조사 결과 및 경제심리지수(ESI)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064085&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-26",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.671833+09:00"
-      },
-      {
-        "title": "2026년 2/4분기 차주별 가계부채(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064037&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-25",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.676609+09:00"
-      },
-      {
-        "title": "[보도자료] 한국은행, 경남지역 집중호우 피해 중소기업 지원",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064057&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=200690&oldMenuNo=201263",
-        "date": "2026-08-25",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.681220+09:00"
-      },
-      {
-        "title": "2026년 8월 소비자동향조사 결과",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064042&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-25",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.685866+09:00"
-      },
-      {
-        "title": "2026년 7월 생산자물가지수(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063946&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-21",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.691356+09:00"
-      },
-      {
-        "title": "한국은행 부총재 인사",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11063967&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-20",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.696056+09:00"
-      },
-      {
-        "title": "2026년 2/4분기 국제투자대조표(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063936&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-20",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.700757+09:00"
-      },
-      {
-        "title": "2026년 2/4분기중 가계신용(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063896&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-19",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.705231+09:00"
-      },
-      {
-        "title": "2026년 6월 통화 및 유동성",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11063779&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-08-14",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-08-26T22:08:40.709837+09:00"
-      }
-    ],
+    "한국은행 보도자료": [],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-08-26T22:13:10.881771+09:00",
+  "last_updated": "2026-08-26T23:17:10.945626+09:00",
   "feed_count": 3,
-  "total_articles": 10
+  "total_articles": 0
 }
