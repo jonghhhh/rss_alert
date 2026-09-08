@@ -1,101 +1,10 @@
 {
   "feeds": {
-    "한국은행 보도자료": [
-      {
-        "title": "2026년 2/4분기 국민소득(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064532&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-09-08",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.556902+09:00"
-      },
-      {
-        "title": "2026년 2/4분기 예금취급기관 산업별 대출금",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064496&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-09-07",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.561589+09:00"
-      },
-      {
-        "title": "2026년 7월 국제수지(잠정)",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064444&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201264&oldMenuNo=201263",
-        "date": "2026-09-04",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.566084+09:00"
-      },
-      {
-        "title": "2026년 8월말 외환보유액",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064420&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-03",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.570463+09:00"
-      },
-      {
-        "title": "2026년 2/4분기중 거주자의 카드 해외 사용실적",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064387&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-02",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.574816+09:00"
-      },
-      {
-        "title": "「2026 BOK-CEPR-OECD 컨퍼런스」 개최",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064336&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-02",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.579876+09:00"
-      },
-      {
-        "title": "[보도참고자료] 2026년 8월 「물가상황점검회의」 개최",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064400&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-02",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.584123+09:00"
-      },
-      {
-        "title": "[보도참고자료] 新뉴스심리지수 공표",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064326&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-01",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.588638+09:00"
-      },
-      {
-        "title": "[보도자료] 2026년 2/4분기중 주요 기관투자가의 외화증권투자 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064319&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-09-01",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.593003+09:00"
-      },
-      {
-        "title": "[보도자료] 2026년 7월중 거주자외화예금 동향",
-        "link": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064253&searchCnd=1&searchKwd=&depth2=200038&depth3=201263&depth=201263&pageUnit=10&pageIndex=1&programType=newsData&menuNo=201265&oldMenuNo=201263",
-        "date": "2026-08-28",
-        "summary": "",
-        "source": "한국은행 보도자료",
-        "icon": "🏦",
-        "fetched_at": "2026-09-09T01:10:37.597704+09:00"
-      }
-    ],
+    "한국은행 보도자료": [],
     "국가데이터처 보도자료": [],
     "국가데이터처 언론보도 설명": []
   },
-  "last_updated": "2026-09-09T01:15:09.568860+09:00",
+  "last_updated": "2026-09-09T04:35:38.805624+09:00",
   "feed_count": 3,
-  "total_articles": 10
+  "total_articles": 0
 }
